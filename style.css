@@ -18,8 +18,14 @@ html {
 body {
     font-family: 'Rubik', sans-serif;
     height: 100vh;
-    text-align: center;
+    font-size: 18px;
+    /* text-align: center; */
       }
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
 
 a {
   color: #fff;
@@ -27,12 +33,24 @@ a {
   text-decoration: none;
 }
 
+.button {
+  background-color: #3882F6;
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 45px;
+  border-radius: 5px;
+  border-style: none;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #010101;
-  height: 10vh;
+  min-height: 10vh;
   padding: 0px 10%;
 }
 
@@ -49,7 +67,7 @@ a {
 
 .header-logo {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: bold;
 }
 
@@ -61,7 +79,30 @@ a {
 .hero {
   display: flex;
   justify-content: space-between;
-  /* padding: 10px 100px; */
+  align-items: center;
+  background-color: #010101;
+  min-height: 50vh;
+  padding: 0px 10%;
+  color: #fff;
+}
+
+.hero-img {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.hero-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.hero-box h1 {
+  text-align: left;
+  line-height: 0.9;
 }
 
 .hero-img img {
