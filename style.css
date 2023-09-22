@@ -18,4 +18,48 @@ html {
 body {
     font-family: 'Rubik', sans-serif;
     height: 100vh;
+    text-align: center;
       }
+
+a {
+  /* color: #fff; */
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px 100px; */
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px 100px; */
+}
+
+.hero-img img {
+  width: 400px;
+}
+
+.info {
+  /* text-align: center; */
+}
+
+
+
+.info-planets {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  gap: 30px;
+  justify-content: center;
+}
+
+.info-planets div img {
+  width: 200px;
+}
+
+.info-planets .planet {
+  width: 200px;
+}
