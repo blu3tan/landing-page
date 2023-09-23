@@ -33,6 +33,10 @@ h2 {
   font-weight: 900;
 }
 
+h3 {
+  font-size: 24px;
+}
+
 a {
   color: #fff;
   font-size: 20px;
@@ -177,3 +181,28 @@ figcaption {
   padding: 0px 20%;
 }
 
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+  padding: 0px 20%;
+}
+
+.action-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  background-color: #3882F6;
+  color: #fff;
+  height: 20vh;
+  flex: 1;
+  border-radius: 10px;
+}
+
+.action-box-button .button {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff;
+}
