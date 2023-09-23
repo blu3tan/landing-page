@@ -27,10 +27,26 @@ h1 {
   font-weight: 900;
 }
 
+h2 {
+  margin-top: 30px;
+  font-size: 36px;
+  font-weight: 900;
+}
+
 a {
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 20px;
   text-decoration: none;
+}
+
+blockquote {
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+figcaption {
+  text-align: right;
 }
 
 .button {
@@ -67,7 +83,7 @@ a {
 
 .header-logo {
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -116,7 +132,14 @@ a {
 }
 
 .info {
-  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #1F2937;
+  gap: 30px;
+  min-height: 50vh;
+  padding: 0px 10%;
 }
 
 
@@ -124,16 +147,33 @@ a {
 .info-planets {
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
-  gap: 30px;
+  /* width: 90%; */
+  gap: 40px;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .info-planets div img {
-  width: 200px;
+  width: 220px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #1F2937;
+  border-radius: 10px;
 }
 
 .info-planets .planet {
-  width: 200px;
+  width: 220px;
+  text-align: center;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  background-color: #E5E7EB;
+  color: #1F2937;
+  min-height: 50vh;
+  padding: 0px 20%;
 }
 
